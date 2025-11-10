@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+body{
+    cursor: pointer;
+    background-image: url("./4.avif");
+    font-size: 20px;
+    height: 40vh;
+}
+.hero-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 77, 71);
+    background-image: url("./4.avif");
+}
+.hero{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.p1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 60px;
+    color: rgb(3, 247, 247);
+    font-weight: 700;
+}
+.name{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    justify-content: left;
+    text-decoration: wavy;
+    margin-right: 30px;
+
+}
+.nav-tags{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 60vw;
+    
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(44, 10, 199);
+}
+a:hover{
+    color: aqua;
+}
+.section2{
+    display: flex;
+    /* background-color: rgb(137, 186, 230); */
+   margin: 20px;
+   margin-top: 60px;
+   padding-top: 20px;
+   height: 70vh;
+}
+.me{
+    gap: 15px;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+h4{
+    color: aqua;
+    gap: 20px;
+}
+h2{
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(50, 7, 245);
+
+}
+p{
+    margin-top: 20px;
+    text-wrap: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+
+}
+.button{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 8px;
+    width: 20vw;
+    height: 5vh;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+    background-color: aqua;
+}
+.btn:hover{
+    color: aqua;
+    background-color: rgb(44, 10, 199);
+}
